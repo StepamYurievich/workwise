@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/workwise/static/css/main.1c6e94be.css",
+    "main.js": "/workwise/static/js/main.21f6c23b.js",
+    "static/media/cm-main-img.png": "/workwise/static/media/cm-main-img.b9a05542862d4344a9bc.png",
+    "index.html": "/workwise/index.html",
+    "main.1c6e94be.css.map": "/workwise/static/css/main.1c6e94be.css.map",
+    "main.21f6c23b.js.map": "/workwise/static/js/main.21f6c23b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c6e94be.css",
+    "static/js/main.21f6c23b.js"
+  ]
+}
