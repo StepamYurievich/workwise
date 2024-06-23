@@ -1,0 +1,286 @@
+.containerHeader {
+    background-color: #e44d3a;
+}
+.containerHeaderInner{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+}
+.main{
+    margin-bottom: 100px;
+}
+.title{
+    color: white;
+    font-size: 30px;
+}
+.inputContainer input{
+    padding: 15px;
+    width: 600px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.aside{
+    background-color: rgb(255,255,255);
+    border: 1px solid #e5e5e5;
+    width: 247px;
+}
+
+.container{
+    padding-top: 60px;
+    max-width: 1080px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+}
+
+.liItemFirst{
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.liItem{
+    padding-left: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.links{
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+    color: #000000 ;
+    font-weight: 500 ;
+}
+
+.linksFirst{
+    color: #e44d3a;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+.liItemLast{
+    padding-left: 15px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+
+.flexContainer{
+    display: flex;
+    align-items: center;
+}
+
+.mainSection{
+    padding-left: 30px;
+}
+
+.container1{
+    box-shadow: 0px 2px 0px 1px #c6c6c6;
+    background-color: white;
+    width: 802px;
+    height: 64px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+}
+
+.visitHelpHeader{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.ph{
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.visitHelpForum{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.linkVisit{
+    background-color: #e44d3a;
+    color: #fff;
+    padding: 10px 15px 10px 15px;
+    line-height: 4;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.linkContainer{
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.headerCont1{
+    padding-top: 30px;
+
+}
+
+hr{
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.headerLabel{
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    padding-top: 30px;
+}
+
+.linkFolder{
+    display: flex;
+}
+
+.column1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.column2{
+    display: flex;
+    flex-direction: column;
+}
+
+.links1{
+    font-size: 16px;
+    font-weight: 500;
+    color: #e44d3a;
+    line-height: 2;
+    display: block;
+    text-decoration: none;
+}
+
+.links2{
+    font-size: 16px;
+    font-weight: 500;
+    color: #e44d3a;
+    line-height: 2;
+    display: block;
+    text-decoration: none;
+    margin-left: 150px;
+}
+
+.container2{
+    margin-top: 30px;
+}
+
+.contImg{
+    padding-right: 10px;
+}
+
+.headerLabel2{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    padding-top: 30px;
+}
+
+.liLink{
+    font-size: 16px;
+    font-weight: 500;
+    color: #e44d3a;
+    line-height: 2;
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+
+.ul2{
+    list-style: none;
+}
+
+.liItem2{
+    margin-top: 16px;
+}
+
+.flexContainer2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.img3{
+    width: 32px;
+    height: 32px;
+    padding-bottom: 8px;
+}
+
+.textStyle{
+    font-size: 18px;
+    font-weight: 400;
+    color: #e44d3a;
+    margin-bottom: 10px;
+}
+
+.textStyleSmall{
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.lastLink{
+    background-color: #e44d3a;
+    color: #fff;
+    padding: 10px 15px 10px 15px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.links-small{
+    text-decoration: none;
+    color: #666666 ;
+    margin-bottom: 12px;
+}
+
+.ul ul{
+    padding-left: 0px;
+    list-style: none;
+    display: none;
+}
+
+.li-item-samll{
+    margin-top: 12px;
+}
+
+.liItemGet{
+    padding-left: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    position: relative;
+    z-index: 999;
+}
+
+.li-item-get:hover ul ul{
+    display: block;
+}
+
+.liItemMana{
+    padding-left: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}

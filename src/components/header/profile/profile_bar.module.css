@@ -1,0 +1,107 @@
+.container{
+    border-radius: 5px;
+    width: 240px;
+    background-color: white;
+    font-size: 14px;
+    box-shadow: 0  0 1px black ;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(0);
+    z-index: 99999;
+    position: relative;
+}
+.container.active{
+
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(5px);
+}
+.statusText{
+    font-weight: 600;
+    padding: 12px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.statuses{
+    display: grid;
+    padding: 20px;
+    text-align: left;
+    gap: 10px;
+
+}
+.status{
+    display: flex;
+}
+.statusOnline{
+    display: flex;
+    justify-content: left;
+    font-size: 12px;
+    align-items: center;
+}
+.checkbox{
+
+}
+
+.statuses:last-child{
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/*               Status Custom                   */
+
+.cistomText{
+    text-align: left;
+    padding: 12px;
+    padding-left: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.custom{
+    padding: 20px;
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid #e5e5e5;
+}
+.custom input{
+    width: 200px;
+    height: 35px;
+    border: none;
+    background-color: #eeeeee;
+    padding: 0;
+    border-radius:3px;
+    padding-left: 10px;
+}
+.custom button{
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    height: 35px;
+    width: 35px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+    background-color: #e44d3a;
+}
+
+/*           Custom         */
+
+
+.account{
+    display: grid;
+    padding: 20px;
+    gap: 10px;
+    justify-content: left;
+    font-size: 13px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.account a{
+    color: black;
+}
+.login{
+    padding: 12px;
+}
+.login button{
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,265 @@
+body{
+   background-color: rgb(242,242,242); 
+   font-family: sans-serif;
+}
+
+.aside{
+    background-color: rgb(255,255,255);
+    border: 1px solid #e5e5e5;
+    width: 247px;
+}
+
+main{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: 350px;
+    
+}
+
+.li-item-first{
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 16px; 
+    padding-top: 16px;
+}
+
+.ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.li-item{
+    padding-left: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 16px; 
+    padding-top: 16px;
+}
+
+.links{
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+    color: #000000 ;
+    font-weight: 500 ;
+}
+
+.links-first{
+    color: #e44d3a;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+.li-item-last{
+    padding-left: 15px;
+    padding-bottom: 16px; 
+    padding-top: 16px;
+}
+
+
+.flex-container{
+    display: flex;
+    align-items: center;
+}
+
+.main-section{
+    padding-left: 30px;
+}
+
+.container-1{
+    box-shadow: 0px 2px 0px 1px #c6c6c6;
+    background-color: white;
+    width: 802px;
+    height: 64px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+}
+
+.visit-help-header{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.ph{
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.visit-help-forum{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.link-visit{
+    background-color: #e44d3a;
+    color: #fff;
+    padding: 10px 15px 10px 15px;
+    line-height: 4;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.link-container{
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.header-cont-1{
+    padding-top: 30px;
+
+}
+
+hr{
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.header-label{
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    padding-top: 30px;
+}
+
+.link-folder{
+    display: flex;
+}
+
+.column-1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.column-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.links-1{
+    font-size: 16px;
+    font-weight: 500;
+    color: #e44d3a;
+    line-height: 2;
+    display: block;
+    text-decoration: none;
+}
+
+.links-2{
+    font-size: 16px;
+    font-weight: 500;
+    color: #e44d3a;
+    line-height: 2;
+    display: block;
+    text-decoration: none;
+    margin-left: 150px;
+}
+
+.container-2{
+    margin-top: 30px;
+}
+
+.cont-img{
+    padding-right: 10px;
+}
+
+.header-label-2{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    padding-top: 30px;
+}
+
+.li-link{
+    font-size: 16px;
+    font-weight: 500;
+    color: #e44d3a;
+    line-height: 2;
+    display: block;             
+    text-decoration: none;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+
+.ul-2{
+    list-style: none;
+}
+
+.li-item-2{
+    margin-top: 16px;
+}
+
+.flex-container-2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.img-3{
+    width: 32px;
+    height: 32px;
+    padding-bottom: 8px;
+}
+
+.text-style{
+    font-size: 18px;
+    font-weight: 400;
+    color: #e44d3a;
+    margin-bottom: 10px;
+}
+
+.text-style-small{
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.last-link{
+    background-color: #e44d3a;
+    color: #fff;
+    padding: 10px 15px 10px 15px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.links-small{
+    text-decoration: none;
+    color: #666666 ;
+    margin-bottom: 12px;
+}
+
+.ul-ul{
+    padding-left: 0px;
+    list-style: none;
+    display: none;
+}
+
+.li-item-samll{
+    margin-top: 12px;
+}
+
+.li-item-get{
+    padding-left: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 16px; 
+    padding-top: 16px;
+    position: relative;
+    z-index: 999;
+}
+
+.li-item-get:hover ul-ul{
+    display: block;
+}
+
+.li-item-mana{
+    padding-left: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 16px; 
+    padding-top: 16px;
+}

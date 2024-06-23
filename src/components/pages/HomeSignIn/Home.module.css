@@ -1,0 +1,141 @@
+.container{
+    margin: 0 auto;
+    background-color: #e75348;
+    height: 100%;
+}
+.conteiner_inner{
+    padding-top: 100px;
+    max-width: 870px;
+    margin: 0 auto;
+}
+.signUp{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fff;
+    padding:20px;
+}
+.logo{
+    display: grid;
+    padding-top: 20px;
+    width: 400px;
+    gap: 150px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #6b6b6b;
+}
+.logoTop img{
+    padding-bottom: 30px;
+
+}
+.mainImg{
+    margin-bottom: 50px;
+}
+
+
+/*      buttons         */
+
+.autorized{
+    padding:5px 12px ;
+    background-color: #e7e7e7;
+}
+.sign{
+    padding:5px 12px ;
+    color: #ffffff;
+    border-radius: 2px;
+    background-color: #e44d3a;
+}
+.buttonsSignIn{
+    padding-right: 100px;
+    display: flex;
+    justify-content: right;
+}
+.buttonsSignIn button{
+    border: none;
+}
+
+/*         inputs     */
+
+.signUpMain{
+    padding-left: 20px;
+}
+.mainForm{
+    padding-top: 40px;
+    display: grid;
+}
+.mainForm form{
+    padding-top: 40px;
+}
+.passwordSitn{
+    display: grid;
+    gap: 25px;
+}
+.passwordSitn input{
+    border: 1px solid #e7e7e7;
+    padding-left: 50px;
+    width: 230px;
+    height: 35px;
+}
+
+.redioSitn{
+    font-size: 13px;
+}
+.redioSitn a{
+    padding-left: 100px;
+}
+.redioSitn_inner{
+    display: grid;
+    padding-top: 20px;
+}
+.redioSitn_inner button{
+    color: white;
+    max-width: 80px;
+    height: 30px;
+    background-color: #e44d3a;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+.redioSitn input{
+    margin-top: 20px;
+}
+.aternative{
+    display: grid;
+    justify-content: center;
+    padding-top: 20px;
+}
+.aternative p{
+    text-align: center  ;
+    font-size: 15px;
+    font-weight: 600;
+}
+.buttons button{
+    display: grid;
+    justify-content: center;
+
+}
+.buttons{
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.buttons button{
+    border: none;
+
+}
+.first{
+    background-color: #101643;
+    color: white;
+    width: 270px;
+    height: 35px;
+    align-items: center;
+    border-radius: 3px;
+}
+.secind{
+    background-color: #4099ff;
+    color: white;
+    width: 270px;
+    height: 35px;
+    align-items: center;
+    border-radius: 3px;
+}

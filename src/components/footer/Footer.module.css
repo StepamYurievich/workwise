@@ -1,0 +1,36 @@
+.container{
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #6e6e6e;
+    font-size: 14px;
+}
+.footer_price{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.footerMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerMain{
+    padding:0 10px ;
+    border-right: 1px solid #000000;
+}
+.footerMain:hover{
+    color: #e44d3a;
+    cursor: pointer;
+}
+.footerMain:last-child{
+    padding:0 10px ;
+    border-right: none;
+}
+
+/*       Footer logo                   */
+
+.footelogo{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}

@@ -1,0 +1,80 @@
+.container{
+    max-height: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.containerTitle{
+    margin-top: 60px;
+    padding: 10px;
+    background: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+.companies{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+.company{
+    background-color: white;
+}
+.company_inner{
+    padding: 30px 0;
+}
+.companyLogo{
+    margin-bottom: 15px;
+}
+.companyName{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.companyDate{
+    color: black;
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+.companyLink{
+    padding: 20px 0;
+    color: black;
+    border-top:1px solid #e2e2e2;
+}
+
+.companyDeta{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10px;
+
+}
+.companyDeta button{
+    border: none;
+    letter-spacing: 1px;
+}
+.follw{
+    width: 70px;
+    height: 35px;
+    margin-left:  40px;
+    background-color: #53d690;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.email{
+    width: 48px;
+    height: 35px;
+    margin-right: 60px;
+    background-color: #e44d3a;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.loading{
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+
+}

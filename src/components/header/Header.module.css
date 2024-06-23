@@ -1,0 +1,151 @@
+
+.container{
+    max-width: 1110px;
+    margin: 0 auto  ;
+    height: 55px;
+    text-align: center;
+
+}
+.container_inner{
+    display: flex;
+    height: 55px;
+}
+
+/*         Logo               */
+
+.searchLogo{
+    display: flex;
+    gap: 20px;
+    justify-content:    space-between   ;
+    padding-right: 100px;
+}
+
+.logo img{
+    padding-top: 10px;
+    width: 34px;
+    height: 34px;
+
+}
+.logo_input{
+    position: relative;
+
+}
+.logo_input input{
+    width: 280px;
+    height: 38px;
+    border: none;
+    margin-top: 8px;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.logo_input input::placeholder{
+    font-size:10px;
+}
+.logo_input button{
+    position: absolute;
+    background-color: #efefef;
+    top: 8px;
+    right: 0;
+    bottom: 9px;
+    left: 258px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.VscSearch{
+    font-size: 20px;
+    padding-top: 6px;
+    color: #e44d3a;
+    font-weight: 600;
+
+}
+
+/*           Item           */
+
+
+.items{
+    display: flex;
+    justify-content: right;
+}
+.item{
+    font-size: 13px;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.i{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.i_hover_one{
+    list-style-type: none;
+}
+
+
+.titles{
+    position: absolute;
+    text-align: left;
+    top: 55px;
+    width: 140px;
+    background-color: #e44d3a;
+    font-size: 14px;
+    opacity: 0;
+    visibility: hidden;
+    padding: 20px;
+    margin-left: 60px;
+    gap: 10px;
+    transition: 1s;
+
+
+}
+.titles.active{
+    z-index: 99999;
+    opacity: 1;
+    visibility: visible;
+
+}
+.titles li{
+    list-style-type: none;
+}
+.titles_inner{
+    display: grid;
+    gap: 10px;
+    text-align: left;
+}
+
+
+/*         Profile               */
+
+.profile{
+    border-right: 1px solid red;
+    border-left: 1px solid red;
+    padding: 0 15px  0 ;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.profile img{
+    padding-top: 10px;
+}
+.name{
+    font-size: 13px;
+    color: white;
+    padding-right: 2px;
+}
+.profile_inner{
+    position: relative;
+}
+.profile_bar{
+    position: absolute;
+    right: -15px;
+    border-radius: 15px  ;
+    padding-top: 9px;
+}
